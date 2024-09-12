@@ -1,0 +1,180 @@
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 0 10%;
+}
+
+.color-panel {
+    display: inline-block;
+    text-align: center;
+    margin: 20px auto;
+    width: 32%;
+    min-height: 100px;
+}
+
+.container {
+    border: 2px solid gainsboro;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+.color-container {
+    width: 100%;
+}
+
+.hotpink {
+    background-color: rgb(255, 105, 180);
+}
+
+.indigo {
+    background-color: rgb(75, 0, 130);
+    color: #fff;
+}
+
+.yellow {
+    background-color: rgb(250, 250, 210);
+}
+
+.blue {
+    background-color: rgb(135, 206, 250);
+}
+
+.font-panel {
+    width: 45%;
+    display: inline-block;
+}
+
+.font-name {
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+.regular {
+    font-style: normal;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.source-code-pro {
+    font-family: 'Source Code Pro', monospace;
+}
+
+.nunito {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.poppins {
+    font-family: 'Poppins', sans-serif;
+}
+
+.button-container {
+    width: 100%;
+}
+
+button {
+    height: 40px;
+    width: 100px;
+    margin: 4%;
+    font-weight: bolder;
+    text-transform: uppercase;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.6s ease 0s;
+
+}
+
+button:hover {
+    transition: all 0.6s ease 0s;
+}
+
+
+#first-button {
+    border-radius: 5px;
+    background-color: rgb(15, 221, 56);
+}
+
+#first-button:hover {
+    background-color: rgb(33, 247, 76);
+    letter-spacing: 1px;
+}
+
+#second-button {
+    border-radius: 20px;
+    background-color: rgb(224, 17, 17);
+}
+
+#second-button:hover {
+    background-color: rgb(237, 35, 21);
+    color: rgb(161, 232, 84);
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 2px red;
+    width: 120px;
+}
+
+#third-button {
+    border-radius: 5%;
+    background-color: rgb(227, 160, 43);
+}
+
+#third-button:hover {
+    background-color: rgb(245, 239, 55);
+    color: rgb(237, 35, 21);
+    letter-spacing: 2px;
+    text-shadow: orange 1px 0 10px;
+    border-radius: 10%;
+    width: 110px;
+}
+
+#fourth-button {
+    border-radius: 5px;
+    color: rgb(45, 111, 152);
+    text-transform: uppercase;
+    border: 1px solid rgb(106, 197, 254);
+    background-color: rgb(74, 181, 247);
+}
+
+#fourth-button:hover {
+    border: 2px solid rgb(100, 140, 241);
+    background-color: rgb(80, 127, 246);
+    letter-spacing: 1px;
+    border-radius: 50px;
+    font-weight: bold;
+    color: rgb(135, 206, 250);
+    width: 150px;
+
+}
+
+#fifth-button {
+    background-color: #fff;
+    color: black;
+    border-radius: 5px;
+    border: 1px solid rgb(194, 209, 248);
+}
+
+#fifth-button:hover {
+    background-color: black;
+    color: #fff;
+    width: 110px;
+    border: none;
+    box-shadow: 0 13px 17px 0 rgba(0, 0, 0, 0.25), 0 18px 51px 0 rgba(0, 0, 0, 0.20);
+}
+
+#sixth-button {
+    background-color: black;
+    color: #fff;
+    border-radius: 5px;
+    
+}
+
+#sixth-button:hover {
+    color: black;
+    letter-spacing: 1px;
+    background-image: linear-gradient(rgb(216, 255, 243), #ffffff);
+    box-shadow: 0 13px 17px 0 rgba(231, 242, 241, 0.25), 0 18px 51px 0 rgb(129, 213, 241);
+}
